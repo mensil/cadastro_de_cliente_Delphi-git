@@ -1,0 +1,31 @@
+unit uTelaHerança;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.ComCtrls,
+  Vcl.StdCtrls, Vcl.Mask;
+
+type
+  TfrmTelaHerança = class(TForm)
+    pnlRodapack: TPanel;
+    pgcControl: TPageControl;
+    tabListagem: TTabSheet;
+    tabManutenção: TTabSheet;
+    Panel1: TPanel;
+    mskEdit: TMaskEdit;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmTelaHerança: TfrmTelaHerança;
+
+implementation
+
+{$R *.dfm}
+
+end.
